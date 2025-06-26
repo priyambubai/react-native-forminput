@@ -1,0 +1,63 @@
+{
+  "name": "@react-native/forminput",
+  "version": "2.0.0",
+  "description": "A comprehensive React Native form input component with date selection, validation, and customizable styling.",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "scripts": {
+    "build": "bob build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyambubai/react-native-forminput.git"
+  },
+  "dependencies": {
+    "react-native-ui-datepicker": "^3.1.2",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "react-native-builder-bob": "^0.40.12",
+    "typescript": "^5.8.3"
+  },
+  "author": "Priyam Chatterjee",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "react-native",
+    "forms",
+    "input",
+    "datepicker",
+    "styling",
+    "validation",
+    "custom-validation",
+    "error-handling",
+    "date-selection",
+    "range-selection",
+    "multi-selection",
+    "customizable",
+    "form-controls",
+    "user-input",
+    "react-native-datepicker",
+    "react-native-forms",
+    "react-native-input",
+    "react-native-validation",
+    "react-native-styling",
+    "react-native-components",
+    "form-validation",
+    "date-picker",
+    "time-picker",
+    "date-time-picker",
+    "react-native-date-picker",
+    "react-native-time-picker",
+    "react-native-date-time-picker"
+  ]
+}
