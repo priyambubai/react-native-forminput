@@ -2,7 +2,7 @@
 
 The `FormInput` is a custom, reusable input component for React-Native applications. It supports both text input and date picker functionality, with extensive customization options.
 
-▶️ [View Live on Expo Snack](https://snack.expo.dev/@priyam.websadroit/react-native-forminput?platform=android) ▶️ | [Full Documentation](https://react-native-utils-forminput-docs.vercel.app)
+▶️ [View Live on Expo Snack](https://snack.expo.dev/@priyambubai/react-native-utils-forminput?platform=android) ▶️ | [Full Documentation](https://react-native-utils-forminput-docs.vercel.app)
 
 ## Table of Contents
 
@@ -191,6 +191,10 @@ For complete documentation with all available props and advanced examples, pleas
 ## Changelog
 
 > For a complete version history, see our [full changelog on the documentation website](https://react-native-utils-forminput-docs.vercel.app/changelog).
+
+### [2.0.2] - 2025-06-28
+
+- Minor Bug Fixes.
 
 ### [2.0.1] - 2025-06-28
 

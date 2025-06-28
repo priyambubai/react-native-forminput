@@ -1,6 +1,6 @@
 {
   "name": "@react-native-utils/forminput",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A comprehensive React Native form input component with date selection, validation, and customizable styling.",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
