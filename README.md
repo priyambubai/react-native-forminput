@@ -2,7 +2,7 @@
 
 The `FormInput` is a custom, reusable input component for React-Native applications. It supports both text input and date picker functionality, with extensive customization options.
 
-▶️ [View Live on Expo Snack](https://snack.expo.dev/@priyam.websadroit/react-native-forminput?platform=android) ▶️ | [Full Documentation](https://react-native-forminput-docs.vercel.app)
+▶️ [View Live on Expo Snack](https://snack.expo.dev/@priyam.websadroit/react-native-forminput?platform=android) ▶️ | [Full Documentation](https://react-native-utils-forminput-docs.vercel.app)
 
 ## Table of Contents
 
@@ -19,16 +19,16 @@ The `FormInput` is a custom, reusable input component for React-Native applicati
 ## Installation
 
 ```bash
-npm install react-native-forminput
+npm install @react-native-utils/forminput
 # or
-yarn add react-native-forminput
+yarn add @react-native-utils/forminput
 ```
 
 ## Basic Usage
 
 ```tsx
 import { useState } from "react";
-import { FormInput } from "react-native-forminput";
+import { FormInput } from "@react-native-utils/forminput";
 
 const App = () => {
   const [name, setName] = useState<string>("");
@@ -75,12 +75,12 @@ FormInput v2.0+ uses a modern grouped props approach for better organization and
 
 For detailed documentation of all available props within each group, refer to:
 
-- [Text Props Documentation](https://react-native-forminput-docs.vercel.app/api-reference/text-props)
-- [Style Props Documentation](https://react-native-forminput-docs.vercel.app/api-reference/style-props)
-- [Icon Props Documentation](https://react-native-forminput-docs.vercel.app/api-reference/icon-props)
-- [Core Props Documentation](https://react-native-forminput-docs.vercel.app/api-reference/core-props)
-- [Date Picker Props Documentation](https://react-native-forminput-docs.vercel.app/api-reference/datepicker-props)
-- [Component Props Documentation](https://react-native-forminput-docs.vercel.app/api-reference/component-props)
+- [Text Props Documentation](https://react-native-utils-forminput-docs.vercel.app/api-reference/text-props)
+- [Style Props Documentation](https://react-native-utils-forminput-docs.vercel.app/api-reference/style-props)
+- [Icon Props Documentation](https://react-native-utils-forminput-docs.vercel.app/api-reference/icon-props)
+- [Core Props Documentation](https://react-native-utils-forminput-docs.vercel.app/api-reference/core-props)
+- [Date Picker Props Documentation](https://react-native-utils-forminput-docs.vercel.app/api-reference/datepicker-props)
+- [Component Props Documentation](https://react-native-utils-forminput-docs.vercel.app/api-reference/component-props)
 
 ## Migration Guide (v2)
 
@@ -147,7 +147,7 @@ Version 2.0 introduces a new props structure that groups related props together.
 />
 ```
 
-For complete documentation with all available props and advanced examples, please visit [our documentation website](https://react-native-forminput-docs.vercel.app).
+For complete documentation with all available props and advanced examples, please visit [our documentation website](https://react-native-utils-forminput-docs.vercel.app).
 
 ## Component Previews
 
@@ -190,7 +190,7 @@ For complete documentation with all available props and advanced examples, pleas
 
 ## Changelog
 
-> For a complete version history, see our [full changelog on the documentation website](https://react-native-forminput-docs.vercel.app/changelog).
+> For a complete version history, see our [full changelog on the documentation website](https://react-native-utils-forminput-docs.vercel.app/changelog).
 
 ### [2.0.0] - 2025-06-20
 
@@ -262,4 +262,4 @@ This README provides a quick overview of the FormInput component. For comprehens
 - Form validation techniques
 - Interactive demos
 
-Please visit our [documentation website](https://react-native-forminput-docs.vercel.app).
+Please visit our [documentation website](https://react-native-utils-forminput-docs.vercel.app).
