@@ -192,7 +192,11 @@ For complete documentation with all available props and advanced examples, pleas
 
 > For a complete version history, see our [full changelog on the documentation website](https://react-native-utils-forminput-docs.vercel.app/changelog).
 
-### [2.0.0] - 2025-06-20
+### [2.0.1] - 2025-06-28
+
+- Minor Bug Fixes.
+
+### [2.0.0] - 2025-06-28
 
 - **BREAKING CHANGE**: Introduced new grouped props structure for better organization and TypeScript support
 - Added comprehensive JSDoc documentation to all prop types
@@ -207,47 +211,6 @@ For complete documentation with all available props and advanced examples, pleas
 
 - Added `datePlaceholderStyle` prop to allow users to pass additional styles for the date placeholder text.
 - Fixed minor styling issues in the date picker component.
-
-### [1.9.0] - 2025-04-02
-
-- Introduced several new styling props for the DatePicker, allowing greater customization of its appearance (e.g., `selectedContainerStyle`, `todayContainerStyle`, `datePickerLeftButtonStyle`, etc.).
-- Added support for additional `datePickerProps` and `datePickerStyles` for advanced customization.
-- Updated `datepicker` library to the latest version.
-- Added `leftIconSource` and `rightIconSource` props: These props allow users to specify the source of their icons (e.g., FontAwesome, MaterialIcons, etc.). The default source is FontAwesome.
-- Added `leftIconSize` and `rightIconSize` props: These props allow users to specify size of the icons.
-- Added `multiline` and `numberOfLines` props: These props allow users to enable multiline input and specify the number of lines for the input field.
-
-### [1.8.1] - 2024-09-11
-
-- Fixed minor styling issue.
-
-### [1.8.0] - 2024-09-11
-
-- Updated code to be compatible with Latest React Native Version.
-
-### [1.7.0] - 2024-07-15
-
-#### Changed
-
-- Updated visual style of the component.
-
-#### Added
-
-- `theme` prop: Introduced a new `theme` prop that allows users to set the theme of the component. The available options are `light`, `dark`, and `system`. The `system` option automatically matches the theme of the device.
-
-### [1.6.0] - 2024-06-17
-
-#### Changed
-
-- Updated GIT Repository
-- Updated various style props to `ViewStyle` and `TextStyle`: This change allows users to get style suggestions more easily. This applies to all components where style props were previously used.
-
-### [1.5.0] - 2024-06-13
-
-#### Added
-
-- `inputContainerBackgroundColor` prop: This new prop allows you to customize the background color of the input container. You can pass any valid color string as the value.
-- Disabled functionality for the datepicker: The datepicker can now be disabled, preventing user interaction. This can be controlled via the `disabled` prop. When `disabled` is set to `true`, the datepicker will be non-interactive.
 
 ---
 

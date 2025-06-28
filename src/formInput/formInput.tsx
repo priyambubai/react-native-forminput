@@ -662,7 +662,7 @@ const FormInput = (props: FormInputProps | FormInputPropsFlat) => {
                 }
             </View>
 
-            {errorText &&
+            {error && errorText &&
                 <Text style={{ ...styles.defaultErrorTextStyle, ...errorTextStyle }}>
                     {errorText}
                 </Text>
